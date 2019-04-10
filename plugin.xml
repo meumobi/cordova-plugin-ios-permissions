@@ -7,10 +7,16 @@
 
 	<platform name="ios">
 		<config-file target="*-Info.plist" parent="NSCameraUsageDescription">
-			<string>This app needs access to the camera to take photos.</string>
+			<string>This app requires camera access to personalize your profile.</string>
 		</config-file>
 		<config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
-			<string>This app needs access to the photo library to pick images.</string>
+			<string>This app needs photo library access to personalize your profile.</string>
+		</config-file>
+		<config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
+			<string>This app requires location access to function properly.</string>
+		</config-file>
+		<config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
+			<string>This app requires location access to function properly.</string>
 		</config-file>
 		<resource-file src="src/ios/de.lproj" />
 		<resource-file src="src/ios/pt.lproj" />
