@@ -18,6 +18,9 @@
 		<config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
 			<string>This app requires location access to function properly.</string>
 		</config-file>
+		<config-file target="*-Info.plist" parent="NSCalendarsUsageDescription">
+			<string>This app requires calendar access to save events.</string>
+		</config-file>
 		<resource-file src="src/ios/de.lproj" />
 		<resource-file src="src/ios/pt.lproj" />
 	</platform>

@@ -1,4 +1,5 @@
 "NSCameraUsageDescription" = "Este aplicativo requer acesso à câmera para personalizar seu perfil.";
-"NSPhotoLibraryUsageDescription" = "Este aplicativo precisa acessar sua geleria de fotos para personalizar seu perfil.";
+"NSPhotoLibraryUsageDescription" = "Este aplicativo precisa acessar sua galeria de fotos para personalizar seu perfil.";
+"NSCalendarsUsageDescription" = "Este aplicativo precisa acessar seu calendário para poder salvar o evento na sua agenda.";
 "NSLocationWhenInUseUsageDescription" = "Este aplicativo precisa acessar a localização para funcionar corretamente.";
 "NSLocationAlwaysUsageDescription" = "Este aplicativo precisa acessar a localização para funcionar corretamente.";
